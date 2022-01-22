@@ -1,7 +1,7 @@
 src/
 resources/
 .prettierrc
-.eslintrc.yml
+.eslintrc.json
 tsconfig.json
 /*.Dockerfile
 /docker-compose.yml
