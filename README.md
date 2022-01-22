@@ -21,5 +21,4 @@ php artisan migrate
 php artisan serve --host 0.0.0.0
 ```
 
-
 Open [http://localhost:8000](http://localhost:8000)
