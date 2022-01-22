@@ -1,7 +1,7 @@
 {
   "name": "@dyoshikawa/mentor-php-env",
   "version": "0.1.0",
-  "description": "",
+  "description": "Prepare local Laravel development env for mentors.",
   "main": "dist/index.js",
   "bin": {
     "mentor-php-env": "dist/index.js"
@@ -57,5 +57,12 @@
       "bash -c 'npm run lint:fix'",
       "bash -c 'npm run typec'"
     ]
+  },
+  "homepage": "https://github.com/dyoshikawa/mentor-php-env#readme",
+  "repository": {
+    "url": "https://github.com/dyoshikawa/mentor-php-env"
+  },
+  "bugs": {
+    "url": "https://github.com/dyoshikawa/mentor-php-env/issues"
   }
 }
