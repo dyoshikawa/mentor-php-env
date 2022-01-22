@@ -1,0 +1,9 @@
+src/
+resources/
+.prettierrc
+.eslintrc.yml
+tsconfig.json
+/*.Dockerfile
+/docker-compose.yml
+/my.cnf
+/php.ini
