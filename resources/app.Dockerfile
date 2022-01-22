@@ -1,4 +1,4 @@
-FROM php:7.3
+FROM php:7.4
 
 COPY --from=composer:2.1 /usr/bin/composer /usr/bin/composer
 
