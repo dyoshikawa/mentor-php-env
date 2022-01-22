@@ -22,3 +22,9 @@ php artisan serve --host 0.0.0.0
 ```
 
 Open [http://localhost:8000](http://localhost:8000)
+
+## References
+
+- [https://github.com/ucan-lab/docker-laravel](https://github.com/ucan-lab/docker-laravel)
+
+I used that as a reference.
