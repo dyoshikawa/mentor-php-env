@@ -12,14 +12,21 @@ const main = async (): Promise<void> => {
   program.parse(process.argv)
 
   // Docker環境ファイルを作成
+  const baseDir = path.join(__dirname, '../resources/')
   fs.copyFileSync(
-    path.join(__dirname, 'docker-compose.yml'),
+    path.join(baseDir, '../resources/docker-compose.yml'),
     './docker-compose.yml'
   )
-  fs.copyFileSync(path.join(__dirname, 'app.Dockerfile'), './app.Dockerfile')
-  fs.copyFileSync(path.join(__dirname, 'php.ini'), './php.ini')
-  fs.copyFileSync(path.join(__dirname, 'db.Dockerfile'), './db.Dockerfile')
-  fs.copyFileSync(path.join(__dirname, 'my.cnf'), './my.cnf')
+  fs.copyFileSync(
+    path.join(baseDir, '../resources/app.Dockerfile'),
+    './app.Dockerfile'
+  )
+  fs.copyFileSync(path.join(baseDir, '../resources/php.ini'), './php.ini')
+  fs.copyFileSync(
+    path.join(baseDir, '../resources/db.Dockerfile'),
+    './db.Dockerfile'
+  )
+  fs.copyFileSync(path.join(baseDir, '../resources/my.cnf'), './my.cnf')
 
   // .envを作成
   fs.copyFileSync('./.env.example', './.env')
