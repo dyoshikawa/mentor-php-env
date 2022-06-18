@@ -36,7 +36,7 @@
     "eslint-config-prettier": "8.3.0",
     "eslint-plugin-import": "2.25.4",
     "husky": "7.0.4",
-    "lint-staged": "12.2.2",
+    "lint-staged": "12.5.0",
     "prettier": "2.4.1",
     "secretlint": "4.1.4",
     "typescript": "4.4.4"
